@@ -1,0 +1,48 @@
+.park1 {
+    width: 500px;
+    clip-path: circle();
+}
+
+.park2 {
+    width: 500px;
+    clip-path: circle();
+}
+
+.park3 {
+    width: 450px;
+    clip-path: circle();
+}
+
+h1 {
+    color: chartreuse;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: chocolate;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    color: chartreuse;
+    text-align: center;
+    padding: 20px 90px;
+    font-size: 20px;
+}
+
+li a:hover {
+    background-color:rgb(248, 245, 240);
+}
+
+body {
+    background-color: chocolate;
+}
