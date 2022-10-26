@@ -1,6 +1,9 @@
 <!DOCTYPE html> 
 <html> 
-    <head> 
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="parks.css">
     </head> 
@@ -16,9 +19,20 @@
                 <a href="parks.html">Explore Parks</a>
             </li>
         </ul>
-        <h1>Parks</h1> 
+        <h1>National Parks</h1> 
         <img src="https://www.planetware.com/photos-large/USWY/usa-wyoming-yellowstone-grand-prismatic-spring.jpg" class="park1" alt="park1">
-        <img src="https://www.jetsetter.com//uploads/sites/7/2018/04/rdIAqLTD-1380x690.jpeg" class="park2" alt="park2">
+        <img src="https://www.jetsetter.com//uploads/sites/7/2018/04/rdIAqLTD.jpeg" class="park2" alt="park2">
         <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/fairyland-royalty-free-image-1597866572.jpg" class="park3" alt="park3">
+        <nav id="nav"></nav>
+    <select id="location" value=""><option value="">Select a Location</option></select>
+    <select id="type" value=""><option value="">Select a Type</option></select>
+    
+    <div id="results"></div>
+    <script src="data/locationData.js"></script>
+    <script src="data/parkTypeData.js"></script>
+    <script src="data/nationalParkData.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/parks.js"></script>
+    </head> 
     </body> 
 </html>
